@@ -4,6 +4,8 @@ This project estimates remaining useful life (RUL) from multivariate turbofan se
 
 **Public GitHub repository:** https://github.com/kaushikkakad/PDS-project
 
+**Project status:** approximately 40% complete and still in progress. The current implementation covers the FD001 data pipeline and first baseline evaluation. Error analysis, more robust validation, broader comparisons, and final refinement remain.
+
 ## Current result
 
 The current run compares Ridge regression and a Random Forest. Validation holds out complete engines (80/20 split, seed 42) and scores the final observed cycle for each held-out engine. The Random Forest was selected by validation MAE and then refit on all FD001 training engines.
