@@ -1,0 +1,24 @@
+{
+  "subset": "FD001",
+  "validation_method": "80/20 engine-level split; final observed cycle per held-out engine",
+  "validation_engines": 20,
+  "validation": {
+    "ridge": {
+      "mae": 4.443415916021362,
+      "rmse": 7.546622681148007,
+      "nasa_score": 18.44212000159895
+    },
+    "random_forest": {
+      "mae": 1.8898110461760464,
+      "rmse": 2.202855657176574,
+      "nasa_score": 4.321944986166713
+    }
+  },
+  "selected_model": "random_forest",
+  "test_engines": 100,
+  "test": {
+    "mae": 13.829253793872795,
+    "rmse": 18.87432287019144,
+    "nasa_score": 632.6058960951079
+  }
+}
