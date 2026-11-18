@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+data/raw/*
+!data/raw/.gitkeep
+models/*
+!models/.gitkeep
+work/
+
