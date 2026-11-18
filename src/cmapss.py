@@ -51,8 +51,8 @@ def add_features(frame: pd.DataFrame, cap: int = 125) -> pd.DataFrame:
     if "rul" in result:
         result["rul"] = result["rul"].clip(upper=cap)
     result["cycle"] = result["cycle"].astype(float)
-    # Last-five-cycle summaries provide a compact temporal signal; shifts ensure the
-    # current cycle is included and all rolling windows stay within a single engine.
+    #last-five-cycle summaries provide a compact temporal signal; shifts ensure the
+    #current cycle is include &all rolling windows stay within a single engine...
     groups = result.groupby("unit", sort=False)
     selected = SENSOR_COLUMNS
     for col in selected:
