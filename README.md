@@ -51,7 +51,7 @@ reports/             Update report and generated experiment artifacts
 
 ## Limitations and next work
 
-This benchmark is simulated and does not establish safety or operational readiness for real aircraft. Current results cover FD001 only; the official test score is substantially worse than the validation score. Next steps are to diagnose this gap, evaluate the other C-MAPSS subsets, compare temporal models such as GRU/LSTM, and document reproducibility and error analysis. A GitHub repository URL will be added after the repository is published.
+This benchmark is simulated and does not establish safety or operational readiness for real aircraft. Current results cover FD001 only; the official test score is substantially worse than the validation score. Next steps are to diagnose this gap, evaluate the other C-MAPSS subsets, compare temporal models such as GRU/LSTM, and document reproducibility and error analysis.
 
 ## Data citation
 
